@@ -1,25 +1,25 @@
-# Lazy Loading Automático de Imagens por Seção
+# Automatic Lazy Loading of Images by Section
 
-Este projeto oferece uma solução simples para melhorar o desempenho das páginas web, otimizando o tempo de carregamento da mesma. O script proposto aborda o carregamento de forma automática de imagens. Somente quando o usuário atinge a seção correspondente na página a imagem é carregada.
+This project offers a simple solution to enhance the performance of web pages by optimizing their loading time. The proposed script automates the image loading process. Only when the user reaches the corresponding section on the page, the image is loaded.
 
-## Como Usar
+## How to Use
 
-1. Coloque o script na pasta de scripts do seu projeto.
-2. Adicione divs com a classe "img" e um ID correspondente e identico ao nome da imagem na pasta do projeto.
+1. Place the script in your project's scripts folder.
+2. Add divs with the class "img" and an ID identical to the image name in your project's folder.
 
 ```html
-// Por exemplo, você possui uma imagem com o nome, "carro_esportivo".
-// Então você deve criar uma div onde quer que essa imagem apareça, da seguinte forma:
-<div class="img" id="carro_esportivo"></div>
+// For example, if you have an image named "sports_car".
+// Then you should create a div wherever you want this image to appear, like this:
+<div class="img" id="sports_car"></div>
 ```
 
-Dessa forma o script carregará automaticamente a imagem referente quando o usuário rolar até a seção onde a imagem se encontra.
+This way, the script will automatically load the corresponding image when the user scrolls to the section where the image is located.
 
-## Versões
+## Versions
 
-Abaixo compartilho um pouco da evolução do código:
+Below, I'll share a bit of the code's evolution:
 
-### version 0.1
+### Version 0.1
 ```JS
 function isSectionVisible(element) {
   const { top, bottom, left, right } = element.getBoundingClientRect(); 
@@ -168,36 +168,36 @@ window.addEventListener('scroll', () => {
 });
 ```
 
-## Contribuições
+## Contributions
 
-Estamos abertos a contribuições para melhorar e expandir este projeto. Sinta-se à vontade para dar ideias, sugerir melhorias no código ou relatar problemas na página do projeto.
+We welcome contributions to improve and expand this project. Feel free to provide ideas, suggest code improvements, or report issues on the project's page.
 
-## Requisitos do Sistema
+## System Requirements
 
-O script pode ser executado em qualquer sistema.
+The script can be executed on any system.
 
-## Problemas Conhecidos
+## Known Issues
 
-Se encontrar algum problema, por favor, relate na página do projeto. Faremos o possível para resolver rapidamente.
+If you encounter any problems, please report them on the project's page. We will do our best to resolve them promptly.
 
-## Licença
+## License
 
-Este projeto é licenciado sob a [Licença AGPL-3.0](LICENSE).
+This project is licensed under the [AGPL-3.0 License](LICENSE).
 
-## Contato
+## Contact
 
-Para mais informações ou esclarecimento de dúvidas, visite [meu perfil no GitHub](https://github.com/webruan).
+For more information or clarification of doubts, visit [my GitHub profile](https://github.com/webruan).
 
-## Recursos de Aprendizado
+## Learning Resources
 
 [StackOverflow](https://stackoverflow.com/questions/34745048/which-method-is-faster-to-select-body-element)
-* Seleção da tag body
+* Selecting the body tag
 
 [Developer Mozilla](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array)
-* Construção de arrays 
+* Building arrays 
 
 [StackOverflow](https://stackoverflow.com/questions/617036/appending-to-an-object)
-* Construção de objetos
+* Building objects
 
 [StackOverflow](https://stackoverflow.com/questions/17094230/how-do-i-loop-through-children-objects-in-javascript)
-* Interação através dos elementos filhos 
+* Iterating through child elements
