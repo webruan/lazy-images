@@ -53,10 +53,10 @@ function loadImages(sectionImgs) {
           imgDivElement.innerHTML = 
           `
             <picture>
-              <source media="(min-width: 1200px)" srcset="./${imgId}.webp">
-              <source media="(min-width: 768px)" srcset="./${imgId}.webp">
-              <source media="(min-width: 320px)" srcset="./${imgId}.webp">
-              <img loading="lazy" src="./${imgId}.webp">
+              <source media="(min-width: 1200px)" srcset="./images/${imgId}.webp">
+              <source media="(min-width: 768px)" srcset="./images/${imgId}.webp">
+              <source media="(min-width: 320px)" srcset="./images/${imgId}.webp">
+              <img loading="lazy" src="./images/${imgId}.webp">
             </picture>
           `;
         }
