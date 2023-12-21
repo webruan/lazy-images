@@ -320,13 +320,26 @@ For more information or clarification of doubts, visit [my GitHub profile](https
 ## Learning Resources
 
 [StackOverflow](https://stackoverflow.com/questions/34745048/which-method-is-faster-to-select-body-element)
-* Selecting the body tag
+**Selecting the body tag**
 
 [Developer Mozilla](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array)
-* Building arrays 
+**Building arrays**
 
 [StackOverflow](https://stackoverflow.com/questions/617036/appending-to-an-object)
-* Building objects
+**Building objects**
 
 [StackOverflow](https://stackoverflow.com/questions/17094230/how-do-i-loop-through-children-objects-in-javascript)
-* Iterating through child elements
+**Iterating through child elements**
+
+[OpenAI](https://chat.openai.com/c/)
+**How ChatGPT Helped in Image Extension Discovery**
+
+For the code new implementation of today, there was a need to automatic discover the correct extension of image from a predefined list. 
+
+To achieve this, I was assisted by ChatGPT in creating a JavaScript function that uses asynchronous checks to determine the existence of the image file in the project folder.
+
+The collaboration involved discussions on refining the code logic, introducing a callback mechanism, and addressing challenges in asynchronous file existence checks. 
+
+The resulting script enables developers to seamlessly integrate image loading with different extensions into their web projects, enhancing user experience.
+
+*For more details and examples, refer to the "Version 0.3" section in the README.md.*
